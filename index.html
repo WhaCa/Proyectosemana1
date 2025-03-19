@@ -3,35 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Mi primera página</title>
+    <title>Warhammer Fantasy Battles Sexta Edición</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Bienvenido a mi página</h1>
-
       <nav>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="acerca.html">Acerca de</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+        <li>
+          <a href="/submenusprincipales/autores.html">Autores</a>
+        </li>
+        <li>
+          <a href="/submenusprincipales/repositorio.html">Repositorio</a>
+        </li>
+        <li>
+          <a href="/submenusprincipales/otrasediciones.html">Otras ediciones</a>
+        </li>
         </ul>
       </nav>
+      <h1 class="title1">Warhammer Fantasy Battles Sexta Edición</h1>
     </header>
     <main>
-      <h2>Contenido principal</h2>
-      <p>Bienvenido a mi página web interactiva con formularios.</p>
-
-      <form id="formulario" action="procesar.php" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" />
-        <button type="submit">Enviar</button>
+      <p class="submenu1">Batallas fantásticas en un mundo de fantasía</p>
+      <a href="/ejercitos/altoselfos.html">Altos Elfos</a><br><br>
+      <a href="/ejercitos/enanos.html">Enanos</a><br><br>
+      <a href="/ejercitos/bestiasdelcaos.html">Bestias del Caos</a><br><br>
+      <a href="/ejercitos/hombreslagarto.html">Hombres Lagrato</a><br><br>
+      <a href="/ejercitos/elfososcuros.html">Elfos Oscuros</a><br><br>
+      <img src="/imagenes/Reglamento.png" width="300">
+      <form class="ejercito" action="procesar.php" method="post">
+        <label class="ejercito1" classfor="ejercito">Ejército:</label>
+        <input type="text" id="ejercito" name="ejercito" />
+        <button type="submit" class="bi bi-caret-right">Entrar</button>
       </form>
+      <button onclick="cambiarColor()">Cambiar color</button>
     </main>
-    <footer>
-      <p>Derechos reservados &copy; 2025</p>
-    </footer>
     <script src="script.js"></script>
+    <footer>
+      <p>Games Workshop 2000-2006</p>
+    </footer>
   </body>
 </html>
