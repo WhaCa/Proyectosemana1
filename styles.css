@@ -1,85 +1,6 @@
-body {
-  font-family: fantasy;
-  text-align: center;
-  background: linear-gradient(to bottom right, firebrick, rgb(62, 60, 60));
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color:color-mix(in hsl shorter hue, gold 60%, white 40%)
-}
-
-h1.title1{ 
-  font-style: oblique;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color:color-mix(in hsl shorter hue, gold 60%, white 40%) 
-}
-
-button {
-  font-family: fantasy;
-  padding: 10px;
-  background-color: black;
-  color: rgba(255, 255, 255, 0.683);
-  cursor: grab;
-  border: none;
-}
-
-button:hover {
-  background-color: rgb(170, 156, 101);
-}
-
-a{
-  position: relative;
-  top:70px;
-  left:-300px;
-  max-width: 50%;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color:color-mix(in hsl shorter hue, gold 60%, white 40%)
-}
-main a.hover{
-  color: firebrick;
-}
-
-img{
-  position: relative;
-  top: -200px;
-  left: 50px;
-}
-
-form{
-  position: relative;
-  top: -200px;
-}
-
-div.menu1{
-  color: rgb(138, 127, 5);
-  float: inline-start;
-}
-
-p.submenu1{
-  text-align: center;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color:color-mix(in hsl shorter hue, gold 60%, white 40%)
-}
-
-form.ejercito{
-  position: relative;
-  left: 50px;
-}
-
-label.ejercito1{
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color: color-mix(in hsl shorter hue, gold 60%, white 40%);
-}
-
 nav {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  color:color-mix(in hsl shorter hue, gold 60%, white 40%);
-  background-color: #7a6060;
-  border-radius: 10%;
+  background-color: #333;
+  color: #fff;
   padding: 10px;
 }
 
@@ -91,13 +12,14 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: -400px;
+  margin-right: 10px;
 }
 
 nav ul li a {
+  color: #fff;
   text-decoration: none;
 }
 
-a:hover {
-  color: firebrick;
+nav ul li a:hover {
+  color: red;
 }
