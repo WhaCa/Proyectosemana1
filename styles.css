@@ -1,7 +1,72 @@
-nav {
-  background-color: #333;
-  color: #fff;
+body {
+  font-family: fantasy;
+  text-align: center;
+  background: linear-gradient(to bottom right, firebrick, rgb(62, 60, 60));
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color:gold
+}
+
+h1.title1{ 
+  font-style: oblique;
+}
+
+button {
+  font-family: fantasy;
   padding: 10px;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.683);
+  cursor: grab;
+  border: none;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+a{
+  top:70px;
+  left:-300px;
+  max-width: 50%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color:gold;
+}
+main a.hover{
+  color: firebrick;
+}
+
+img{
+  position: relative;
+  top: -300px;
+}
+
+form{
+  position: relative;
+  top: -300px;
+}
+
+div.menu1{
+  color: gold;
+  float: inline-start;
+}
+
+form.ejercito{
+  position: relative;
+  align-items: center;
+  
+}
+
+label.ejercito1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: gold;
+}
+
+nav {
+  background-color: #7a6060;
+  border-radius: 30px;
+  padding: 0%;
 }
 
 nav ul {
@@ -12,14 +77,25 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 10px;
+  cursor: grab;
 }
 
 nav ul li a {
-  color: #fff;
   text-decoration: none;
 }
 
-nav ul li a:hover {
-  color: red;
+a:hover {
+  color: firebrick;
 }
+
+nav.menuejercitos{
+  text-align: left;
+  display: grid;
+  background-color: transparent;
+}
+
+form.registrate{
+  background-color:  rgb(98, 86, 86);
+  border-radius: 30px;
+}
+
